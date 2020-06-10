@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Photohunt Game</title>
+    <script type="text/javascript" src="scripts/phaser.min.js"></script>
+    <script type="text/javascript" src="scripts/GlobalVariables.js"></script>
+    <script type="text/javascript" src="scripts/Photo.js"></script>
+    <script type="text/javascript" src="scripts/Preload.js"></script>
+    <script type="text/javascript" src="scripts/MainMenu.js"></script>
+    <script type="text/javascript" src="scripts/GamePlay.js"></script>
+    <script type="text/javascript" src="scripts/GameOver.js"></script>
+
+  </head>
+
+  <body>
+    <script>
+    var config = {
+      type: Phaser.AUTO,
+      width: 800,
+      height: 600,
+      backgroundColor: '#2d2d2d',
+      scene: myGame.scenes
+    };
+
+    var game = new Phaser.Game(config);
+    </script>
+  </body>
+</html>
